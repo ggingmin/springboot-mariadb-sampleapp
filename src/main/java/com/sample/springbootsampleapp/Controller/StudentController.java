@@ -1,14 +1,12 @@
-package com.sample.springbootsampleapp.Controller;
+package com.sample.springbootsampleapp.controller;
 
 import com.sample.springbootsampleapp.model.Student;
-import com.sample.springbootsampleapp.repository.StudentRepository;
 import com.sample.springbootsampleapp.service.StudentService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
-import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
 
